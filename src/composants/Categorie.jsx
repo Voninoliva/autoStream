@@ -8,7 +8,7 @@ function Categorie(props){
     const apiUrl = 'http://172.10.19.71:8080/categorie';
     const donnees = useFetchData(apiUrl);
     console.log(donnees);
-    return 
-    <div>Helooo</div>
+    return <div>Helooo</div>
+    
 }
 export default Categorie;
